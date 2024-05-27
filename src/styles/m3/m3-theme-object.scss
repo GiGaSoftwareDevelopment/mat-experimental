@@ -1,0 +1,3063 @@
+$theme: (
+  _mat-theming-internals-do-not-access: (
+    theme-version: 1,
+    theme-type: dark,
+    palettes: (
+      primary: (
+        0: #000000,
+        10: #00210b,
+        20: #003917,
+        25: #00461e,
+        30: #005225,
+        35: #00602c,
+        40: #006d33,
+        50: #008942,
+        60: #00a751,
+        70: #00c561,
+        80: #00e472,
+        90: #63ff94,
+        95: #c4ffcb,
+        98: #eaffe9,
+        99: #f5fff2,
+        100: #ffffff,
+        error: (
+          0: #000000,
+          10: #410002,
+          20: #690005,
+          25: #7e0007,
+          30: #93000a,
+          35: #a80710,
+          40: #ba1a1a,
+          50: #de3730,
+          60: #ff5449,
+          70: #ff897d,
+          80: #ffb4ab,
+          90: #ffdad6,
+          95: #ffedea,
+          98: #fff8f7,
+          99: #fffbff,
+          100: #ffffff
+        )
+      ),
+      secondary: (
+        0: #000000,
+        10: #0e1f12,
+        20: #233425,
+        25: #2e4030,
+        30: #394b3b,
+        35: #445746,
+        40: #506352,
+        50: #697c6a,
+        60: #829682,
+        70: #9cb19c,
+        80: #b7ccb7,
+        90: #d3e8d2,
+        95: #e1f6e0,
+        98: #eaffe9,
+        99: #f5fff2,
+        100: #ffffff
+      ),
+      tertiary: (
+        0: #000000,
+        10: #002020,
+        20: #003737,
+        25: #004343,
+        30: #004f4f,
+        35: #005c5c,
+        40: #006a6a,
+        50: #008585,
+        60: #00a1a1,
+        70: #00bebe,
+        80: #00dddd,
+        90: #00fbfb,
+        95: #adfffe,
+        98: #e2fffe,
+        99: #f1fffe,
+        100: #ffffff,
+        error: (
+          0: #000000,
+          10: #410002,
+          20: #690005,
+          25: #7e0007,
+          30: #93000a,
+          35: #a80710,
+          40: #ba1a1a,
+          50: #de3730,
+          60: #ff5449,
+          70: #ff897d,
+          80: #ffb4ab,
+          90: #ffdad6,
+          95: #ffedea,
+          98: #fff8f7,
+          99: #fffbff,
+          100: #ffffff
+        )
+      ),
+      neutral: (
+        0: #000000,
+        10: #191c19,
+        20: #2e312e,
+        25: #393c39,
+        30: #454744,
+        35: #51534f,
+        40: #5d5f5b,
+        50: #757873,
+        60: #8f918d,
+        70: #aaaca7,
+        80: #c5c7c2,
+        90: #e2e3de,
+        95: #f0f1ec,
+        98: #f9faf4,
+        99: #fcfdf7,
+        100: #ffffff,
+        4: #0a0b0a,
+        6: #0f110f,
+        12: #1d201d,
+        17: #282b28,
+        22: #323532,
+        24: #373a37,
+        87: #d9dbd6,
+        92: #e8e9e4,
+        94: #edeee9,
+        96: #f3f4ef
+      ),
+      neutral-variant: (
+        0: #000000,
+        10: #161d17,
+        20: #2b322b,
+        25: #363d36,
+        30: #414941,
+        35: #4d544c,
+        40: #596058,
+        50: #717970,
+        60: #8b9389,
+        70: #a6ada4,
+        80: #c1c9be,
+        90: #dde5da,
+        95: #ebf3e8,
+        98: #f4fcf0,
+        99: #f7fef3,
+        100: #ffffff
+      ),
+      error: (
+        0: #000000,
+        10: #410002,
+        20: #690005,
+        25: #7e0007,
+        30: #93000a,
+        35: #a80710,
+        40: #ba1a1a,
+        50: #de3730,
+        60: #ff5449,
+        70: #ff897d,
+        80: #ffb4ab,
+        90: #ffdad6,
+        95: #ffedea,
+        98: #fff8f7,
+        99: #fffbff,
+        100: #ffffff
+      )
+    ),
+    color-tokens: (
+      (mdc, theme):
+        (
+          "background": #191c19,
+          "error": #ffb4ab,
+          "error-container": #93000a,
+          "inverse-on-surface": #2e312e,
+          "inverse-primary": #006d33,
+          "inverse-surface": #e2e3de,
+          "on-background": #e2e3de,
+          "on-error": #690005,
+          "on-error-container": #ffdad6,
+          "on-primary": #003917,
+          "on-primary-container": #63ff94,
+          "on-primary-fixed": #00210b,
+          "on-primary-fixed-variant": #005225,
+          "on-secondary": #233425,
+          "on-secondary-container": #d3e8d2,
+          "on-secondary-fixed": #0e1f12,
+          "on-secondary-fixed-variant": #394b3b,
+          "on-surface": #e2e3de,
+          "on-surface-variant": #c1c9be,
+          "on-tertiary": #003737,
+          "on-tertiary-container": #00fbfb,
+          "on-tertiary-fixed": #002020,
+          "on-tertiary-fixed-variant": #004f4f,
+          "outline": #8b9389,
+          "outline-variant": #414941,
+          "primary": #00e472,
+          "primary-container": #005225,
+          "primary-fixed": #63ff94,
+          "primary-fixed-dim": #00e472,
+          "scrim": #000000,
+          "secondary": #b7ccb7,
+          "secondary-container": #394b3b,
+          "secondary-fixed": #d3e8d2,
+          "secondary-fixed-dim": #b7ccb7,
+          "shadow": #000000,
+          "surface": #191c19,
+          "surface-bright": #373a37,
+          "surface-container": #1d201d,
+          "surface-container-high": #282b28,
+          "surface-container-highest": #323532,
+          "surface-container-low": #191c19,
+          "surface-container-lowest": #0a0b0a,
+          "surface-dim": #0f110f,
+          "surface-tint": #00e472,
+          "surface-variant": #414941,
+          "tertiary": #00dddd,
+          "tertiary-container": #004f4f,
+          "tertiary-fixed": #00fbfb,
+          "tertiary-fixed-dim": #00dddd
+        ),
+      (mdc, typography): (),
+      (mat, app):
+        (
+          background-color: #191c19,
+          text-color: #e2e3de
+        ),
+      (mat, autocomplete):
+        (
+          background-color: #1d201d
+        ),
+      (mat, badge, primary):
+        (
+          background-color: #00e472,
+          text-color: #003917,
+          disabled-state-background-color: rgba(0, 228, 114, 0.38),
+          disabled-state-text-color: #003917
+        ),
+      (mat, badge, secondary):
+        (
+          background-color: #b7ccb7,
+          text-color: #233425,
+          disabled-state-background-color: rgba(183, 204, 183, 0.38),
+          disabled-state-text-color: #233425
+        ),
+      (mat, badge, tertiary):
+        (
+          background-color: #00dddd,
+          text-color: #003737,
+          disabled-state-background-color: rgba(0, 221, 221, 0.38),
+          disabled-state-text-color: #003737
+        ),
+      (mat, badge, error): (),
+      (mat, badge):
+        (
+          background-color: #ffb4ab,
+          text-color: #690005,
+          disabled-state-background-color: rgba(255, 180, 171, 0.38),
+          disabled-state-text-color: #690005
+        ),
+      (mat, bottom-sheet):
+        (
+          container-text-color: #e2e3de,
+          container-background-color: #191c19
+        ),
+      (mat, standard-button-toggle):
+        (
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          text-color: #e2e3de,
+          state-layer-color: #e2e3de,
+          selected-state-background-color: #394b3b,
+          selected-state-text-color: #d3e8d2,
+          disabled-state-text-color: rgba(226, 227, 222, 0.38),
+          disabled-selected-state-text-color: rgba(226, 227, 222, 0.38),
+          disabled-selected-state-background-color: rgba(226, 227, 222, 0.12),
+          divider-color: #8b9389
+        ),
+      (mat, card):
+        (
+          subtitle-text-color: #e2e3de
+        ),
+      (mat, chip, primary):
+        (
+          selected-trailing-action-state-layer-color: #63ff94,
+          selected-trailing-icon-color: #63ff94
+        ),
+      (mat, chip, secondary): (),
+      (mat, chip, tertiary):
+        (
+          selected-trailing-action-state-layer-color: #00fbfb,
+          selected-trailing-icon-color: #00fbfb
+        ),
+      (mat, chip, error):
+        (
+          selected-trailing-action-state-layer-color: #ffdad6,
+          selected-trailing-icon-color: #ffdad6
+        ),
+      (mat, chip):
+        (
+          trailing-action-state-layer-color: #c1c9be,
+          selected-trailing-action-state-layer-color: #d3e8d2,
+          trailing-action-hover-state-layer-opacity: 0.08,
+          trailing-action-focus-state-layer-opacity: 0.12,
+          selected-disabled-trailing-icon-color: #e2e3de,
+          selected-trailing-icon-color: #d3e8d2
+        ),
+      (mat, datepicker, primary): (),
+      (mat, datepicker, secondary):
+        (
+          calendar-date-selected-state-text-color: #233425,
+          calendar-date-selected-state-background-color: #b7ccb7,
+          calendar-date-today-selected-state-outline-color: #b7ccb7,
+          calendar-date-in-range-state-background-color: #394b3b,
+          calendar-date-in-overlap-range-state-background-color: #005225,
+          calendar-date-in-overlap-range-selected-state-background-color: #00e472,
+          calendar-date-today-outline-color: #b7ccb7,
+          calendar-date-preview-state-outline-color: #b7ccb7
+        ),
+      (mat, datepicker, tertiary):
+        (
+          calendar-date-selected-state-text-color: #003737,
+          calendar-date-selected-state-background-color: #00dddd,
+          calendar-date-today-selected-state-outline-color: #00dddd,
+          calendar-date-in-range-state-background-color: #004f4f,
+          calendar-date-in-comparison-range-state-background-color: #005225,
+          calendar-date-today-outline-color: #00dddd,
+          calendar-date-preview-state-outline-color: #00dddd
+        ),
+      (mat, datepicker, error):
+        (
+          calendar-date-selected-state-text-color: #690005,
+          calendar-date-selected-state-background-color: #ffb4ab,
+          calendar-date-today-selected-state-outline-color: #ffb4ab,
+          calendar-date-in-range-state-background-color: #93000a,
+          calendar-date-today-outline-color: #ffb4ab,
+          calendar-date-preview-state-outline-color: #ffb4ab
+        ),
+      (mat, datepicker):
+        (
+          calendar-date-selected-state-text-color: #003917,
+          calendar-date-selected-state-background-color: #00e472,
+          calendar-date-selected-disabled-state-background-color: rgba(226, 227, 222, 0.38),
+          calendar-date-today-selected-state-outline-color: #00e472,
+          calendar-date-focus-state-background-color: rgba(226, 227, 222, 0.12),
+          calendar-date-hover-state-background-color: rgba(226, 227, 222, 0.08),
+          toggle-active-state-icon-color: #c1c9be,
+          calendar-date-in-range-state-background-color: #005225,
+          calendar-date-in-comparison-range-state-background-color: #004f4f,
+          calendar-date-in-overlap-range-state-background-color: #394b3b,
+          calendar-date-in-overlap-range-selected-state-background-color: #b7ccb7,
+          toggle-icon-color: #c1c9be,
+          calendar-body-label-text-color: #e2e3de,
+          calendar-period-button-text-color: #c1c9be,
+          calendar-period-button-icon-color: #c1c9be,
+          calendar-navigation-button-icon-color: #c1c9be,
+          calendar-header-text-color: #c1c9be,
+          calendar-date-today-outline-color: #00e472,
+          calendar-date-today-disabled-state-outline-color: rgba(226, 227, 222, 0.38),
+          calendar-date-text-color: #e2e3de,
+          calendar-date-disabled-state-text-color: rgba(226, 227, 222, 0.38),
+          calendar-date-preview-state-outline-color: #00e472,
+          range-input-separator-color: #e2e3de,
+          range-input-disabled-state-separator-color: rgba(226, 227, 222, 0.38),
+          range-input-disabled-state-text-color: rgba(226, 227, 222, 0.38),
+          calendar-container-background-color: #282b28,
+          calendar-container-text-color: #e2e3de
+        ),
+      (mat, dialog): (),
+      (mat, divider):
+        (
+          color: #414941
+        ),
+      (mat, expansion):
+        (
+          container-background-color: #191c19,
+          container-text-color: #e2e3de,
+          actions-divider-color: #414941,
+          header-hover-state-layer-color: rgba(226, 227, 222, 0.08),
+          header-focus-state-layer-color: rgba(226, 227, 222, 0.12),
+          header-disabled-state-text-color: rgba(226, 227, 222, 0.38),
+          header-text-color: #e2e3de,
+          header-description-color: #c1c9be,
+          header-indicator-color: #c1c9be
+        ),
+      (mat, fab, primary): (),
+      (mat, fab, secondary):
+        (
+          foreground-color: #d3e8d2,
+          state-layer-color: #d3e8d2,
+          ripple-color: rgba(211, 232, 210, 0.12)
+        ),
+      (mat, fab, tertiary):
+        (
+          foreground-color: #00fbfb,
+          state-layer-color: #00fbfb,
+          ripple-color: rgba(0, 251, 251, 0.12)
+        ),
+      (mat, fab):
+        (
+          foreground-color: #63ff94,
+          state-layer-color: #63ff94,
+          ripple-color: rgba(99, 255, 148, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12,
+          disabled-state-container-color: rgba(226, 227, 222, 0.12),
+          disabled-state-foreground-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mat, fab-small, primary): (),
+      (mat, fab-small, secondary):
+        (
+          foreground-color: #d3e8d2,
+          state-layer-color: #d3e8d2,
+          ripple-color: rgba(211, 232, 210, 0.12)
+        ),
+      (mat, fab-small, tertiary):
+        (
+          foreground-color: #00fbfb,
+          state-layer-color: #00fbfb,
+          ripple-color: rgba(0, 251, 251, 0.12)
+        ),
+      (mat, fab-small):
+        (
+          foreground-color: #63ff94,
+          state-layer-color: #63ff94,
+          ripple-color: rgba(99, 255, 148, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12,
+          disabled-state-container-color: rgba(226, 227, 222, 0.12),
+          disabled-state-foreground-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mat, filled-button, primary): (),
+      (mat, filled-button, secondary):
+        (
+          state-layer-color: #233425,
+          ripple-color: rgba(35, 52, 37, 0.12)
+        ),
+      (mat, filled-button, tertiary):
+        (
+          state-layer-color: #003737,
+          ripple-color: rgba(0, 55, 55, 0.12)
+        ),
+      (mat, filled-button, error):
+        (
+          state-layer-color: #690005,
+          ripple-color: rgba(105, 0, 5, 0.12)
+        ),
+      (mat, filled-button):
+        (
+          state-layer-color: #003917,
+          disabled-state-layer-color: #c1c9be,
+          ripple-color: rgba(0, 57, 23, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12
+        ),
+      (mat, form-field, primary): (),
+      (mat, form-field, secondary):
+        (
+          focus-select-arrow-color: #b7ccb7
+        ),
+      (mat, form-field, tertiary):
+        (
+          focus-select-arrow-color: #00dddd
+        ),
+      (mat, form-field, error):
+        (
+          focus-select-arrow-color: #ffb4ab
+        ),
+      (mat, form-field):
+        (
+          focus-select-arrow-color: #00e472,
+          disabled-input-text-placeholder-color: rgba(226, 227, 222, 0.38),
+          state-layer-color: #e2e3de,
+          error-text-color: #ffb4ab,
+          select-option-text-color: #191c19,
+          select-disabled-option-text-color: rgba(25, 28, 25, 0.38),
+          leading-icon-color: #c1c9be,
+          disabled-leading-icon-color: rgba(226, 227, 222, 0.38),
+          trailing-icon-color: #c1c9be,
+          disabled-trailing-icon-color: rgba(226, 227, 222, 0.38),
+          error-focus-trailing-icon-color: #ffb4ab,
+          error-hover-trailing-icon-color: #ffdad6,
+          error-trailing-icon-color: #ffb4ab,
+          enabled-select-arrow-color: #c1c9be,
+          disabled-select-arrow-color: rgba(226, 227, 222, 0.38),
+          hover-state-layer-opacity: 0.08
+        ),
+      (mat, grid-list): (),
+      (mat, icon-button):
+        (
+          state-layer-color: #c1c9be,
+          disabled-state-layer-color: #c1c9be,
+          ripple-color: rgba(193, 201, 190, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12
+        ),
+      (mat, icon, surface): (),
+      (mat, icon, primary):
+        (
+          color: #00e472
+        ),
+      (mat, icon, secondary):
+        (
+          color: #b7ccb7
+        ),
+      (mat, icon, tertiary):
+        (
+          color: #00dddd
+        ),
+      (mat, icon, error):
+        (
+          color: #ffb4ab
+        ),
+      (mat, icon): (),
+      (mat, menu):
+        (
+          item-label-text-color: #e2e3de,
+          item-icon-color: #c1c9be,
+          item-hover-state-layer-color: rgba(226, 227, 222, 0.08),
+          item-focus-state-layer-color: rgba(226, 227, 222, 0.12),
+          container-color: #1d201d,
+          divider-color: #414941
+        ),
+      (mat, optgroup):
+        (
+          label-text-color: #c1c9be
+        ),
+      (mat, option, primary):
+        (
+          selected-state-label-text-color: #63ff94,
+          selected-state-layer-color: #005225
+        ),
+      (mat, option, secondary): (),
+      (mat, option, tertiary):
+        (
+          selected-state-label-text-color: #00fbfb,
+          selected-state-layer-color: #004f4f
+        ),
+      (mat, option, error):
+        (
+          selected-state-label-text-color: #ffdad6,
+          selected-state-layer-color: #93000a
+        ),
+      (mat, option):
+        (
+          selected-state-label-text-color: #d3e8d2,
+          label-text-color: #e2e3de,
+          hover-state-layer-color: rgba(226, 227, 222, 0.08),
+          focus-state-layer-color: rgba(226, 227, 222, 0.12),
+          selected-state-layer-color: #394b3b
+        ),
+      (mat, outlined-button, primary): (),
+      (mat, outlined-button, secondary):
+        (
+          state-layer-color: #b7ccb7,
+          ripple-color: rgba(183, 204, 183, 0.12)
+        ),
+      (mat, outlined-button, tertiary):
+        (
+          state-layer-color: #00dddd,
+          ripple-color: rgba(0, 221, 221, 0.12)
+        ),
+      (mat, outlined-button, error):
+        (
+          state-layer-color: #ffb4ab,
+          ripple-color: rgba(255, 180, 171, 0.12)
+        ),
+      (mat, outlined-button):
+        (
+          state-layer-color: #00e472,
+          disabled-state-layer-color: #c1c9be,
+          ripple-color: rgba(0, 228, 114, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12
+        ),
+      (mat, paginator):
+        (
+          container-text-color: #e2e3de,
+          container-background-color: #191c19,
+          enabled-icon-color: #c1c9be,
+          disabled-icon-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mat, checkbox):
+        (
+          disabled-label-color: rgba(226, 227, 222, 0.38),
+          label-text-color: #e2e3de
+        ),
+      (mat, full-pseudo-checkbox, primary): (),
+      (mat, full-pseudo-checkbox, secondary):
+        (
+          selected-icon-color: #b7ccb7,
+          selected-checkmark-color: #233425
+        ),
+      (mat, full-pseudo-checkbox, tertiary):
+        (
+          selected-icon-color: #00dddd,
+          selected-checkmark-color: #003737
+        ),
+      (mat, full-pseudo-checkbox, error):
+        (
+          selected-icon-color: #ffb4ab,
+          selected-checkmark-color: #690005
+        ),
+      (mat, full-pseudo-checkbox):
+        (
+          selected-icon-color: #00e472,
+          selected-checkmark-color: #003917,
+          unselected-icon-color: #c1c9be,
+          disabled-selected-checkmark-color: #191c19,
+          disabled-unselected-icon-color: rgba(226, 227, 222, 0.38),
+          disabled-selected-icon-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mat, list):
+        (
+          active-indicator-color: #394b3b
+        ),
+      (mat, minimal-pseudo-checkbox, primary): (),
+      (mat, minimal-pseudo-checkbox, secondary):
+        (
+          selected-checkmark-color: #b7ccb7
+        ),
+      (mat, minimal-pseudo-checkbox, tertiary):
+        (
+          selected-checkmark-color: #00dddd
+        ),
+      (mat, minimal-pseudo-checkbox, error):
+        (
+          selected-checkmark-color: #ffb4ab
+        ),
+      (mat, minimal-pseudo-checkbox):
+        (
+          selected-checkmark-color: #00e472,
+          disabled-selected-checkmark-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mat, protected-button, primary): (),
+      (mat, protected-button, secondary):
+        (
+          state-layer-color: #b7ccb7,
+          ripple-color: rgba(183, 204, 183, 0.12)
+        ),
+      (mat, protected-button, tertiary):
+        (
+          state-layer-color: #00dddd,
+          ripple-color: rgba(0, 221, 221, 0.12)
+        ),
+      (mat, protected-button, error):
+        (
+          state-layer-color: #ffb4ab,
+          ripple-color: rgba(255, 180, 171, 0.12)
+        ),
+      (mat, protected-button):
+        (
+          state-layer-color: #00e472,
+          disabled-state-layer-color: #c1c9be,
+          ripple-color: rgba(0, 228, 114, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12
+        ),
+      (mat, radio, primary): (),
+      (mat, radio, secondary):
+        (
+          checked-ripple-color: #b7ccb7
+        ),
+      (mat, radio, tertiary):
+        (
+          checked-ripple-color: #00dddd
+        ),
+      (mat, radio, error):
+        (
+          checked-ripple-color: #ffb4ab
+        ),
+      (mat, radio):
+        (
+          ripple-color: #e2e3de,
+          checked-ripple-color: #00e472,
+          disabled-label-color: rgba(226, 227, 222, 0.38),
+          label-text-color: #e2e3de
+        ),
+      (mat, ripple):
+        (
+          color: rgba(226, 227, 222, 0.1)
+        ),
+      (mat, select, primary): (),
+      (mat, select, secondary):
+        (
+          focused-arrow-color: #b7ccb7
+        ),
+      (mat, select, tertiary):
+        (
+          focused-arrow-color: #00dddd
+        ),
+      (mat, select, error):
+        (
+          focused-arrow-color: #ffb4ab
+        ),
+      (mat, select):
+        (
+          panel-background-color: #1d201d,
+          enabled-trigger-text-color: #e2e3de,
+          disabled-trigger-text-color: rgba(226, 227, 222, 0.38),
+          placeholder-text-color: #c1c9be,
+          enabled-arrow-color: #c1c9be,
+          disabled-arrow-color: rgba(226, 227, 222, 0.38),
+          focused-arrow-color: #00e472,
+          invalid-arrow-color: #ffb4ab
+        ),
+      (mat, sidenav):
+        (
+          container-background-color: #191c19,
+          container-text-color: #c1c9be,
+          content-background-color: #191c19,
+          content-text-color: #e2e3de,
+          scrim-color: rgba(43, 50, 43, 0.4)
+        ),
+      (mat, slider, primary): (),
+      (mat, slider, secondary):
+        (
+          ripple-color: #b7ccb7,
+          hover-state-layer-color: rgba(183, 204, 183, 0.05),
+          focus-state-layer-color: rgba(183, 204, 183, 0.2)
+        ),
+      (mat, slider, tertiary):
+        (
+          ripple-color: #00dddd,
+          hover-state-layer-color: rgba(0, 221, 221, 0.05),
+          focus-state-layer-color: rgba(0, 221, 221, 0.2)
+        ),
+      (mat, slider, error):
+        (
+          ripple-color: #ffb4ab,
+          hover-state-layer-color: rgba(255, 180, 171, 0.05),
+          focus-state-layer-color: rgba(255, 180, 171, 0.2)
+        ),
+      (mat, slider):
+        (
+          ripple-color: #00e472,
+          hover-state-layer-color: rgba(0, 228, 114, 0.05),
+          focus-state-layer-color: rgba(0, 228, 114, 0.2)
+        ),
+      (mat, switch):
+        (
+          track-outline-color: #8b9389,
+          disabled-unselected-track-outline-color: #e2e3de,
+          label-text-color: #e2e3de
+        ),
+      (mat, snack-bar):
+        (
+          button-color: #006d33
+        ),
+      (mat, sort):
+        (
+          arrow-color: #e2e3de
+        ),
+      (mat, stepper, primary):
+        (
+          header-selected-state-icon-background-color: #00e472,
+          header-selected-state-icon-foreground-color: #003917,
+          header-edit-state-icon-background-color: #00e472,
+          header-edit-state-icon-foreground-color: #003917
+        ),
+      (mat, stepper, secondary):
+        (
+          header-selected-state-icon-background-color: #b7ccb7,
+          header-selected-state-icon-foreground-color: #233425,
+          header-edit-state-icon-background-color: #b7ccb7,
+          header-edit-state-icon-foreground-color: #233425
+        ),
+      (mat, stepper, tertiary):
+        (
+          header-selected-state-icon-background-color: #00dddd,
+          header-selected-state-icon-foreground-color: #003737,
+          header-edit-state-icon-background-color: #00dddd,
+          header-edit-state-icon-foreground-color: #003737
+        ),
+      (mat, stepper, error):
+        (
+          header-selected-state-icon-background-color: #ffb4ab,
+          header-selected-state-icon-foreground-color: #690005,
+          header-edit-state-icon-background-color: #ffb4ab,
+          header-edit-state-icon-foreground-color: #690005
+        ),
+      (mat, stepper):
+        (
+          header-icon-foreground-color: #191c19,
+          header-selected-state-icon-background-color: #00e472,
+          header-selected-state-icon-foreground-color: #003917,
+          header-edit-state-icon-background-color: #00e472,
+          header-edit-state-icon-foreground-color: #003917,
+          container-color: #191c19,
+          line-color: #414941,
+          header-hover-state-layer-color: rgba(226, 227, 222, 0.08),
+          header-focus-state-layer-color: rgba(226, 227, 222, 0.12),
+          header-label-text-color: #c1c9be,
+          header-optional-label-text-color: #c1c9be,
+          header-selected-state-label-text-color: #c1c9be,
+          header-error-state-label-text-color: #ffb4ab,
+          header-icon-background-color: #c1c9be,
+          header-error-state-icon-foreground-color: #ffb4ab
+        ),
+      (mat, tab-header, primary): (),
+      (mat, tab-header, secondary):
+        (
+          active-focus-indicator-color: #b7ccb7,
+          active-hover-indicator-color: #b7ccb7
+        ),
+      (mat, tab-header, tertiary):
+        (
+          active-focus-indicator-color: #00dddd,
+          active-hover-indicator-color: #00dddd
+        ),
+      (mat, tab-header, error):
+        (
+          active-focus-indicator-color: #ffb4ab,
+          active-hover-indicator-color: #ffb4ab
+        ),
+      (mat, tab-header):
+        (
+          divider-color: #414941,
+          pagination-icon-color: #e2e3de,
+          inactive-label-text-color: #e2e3de,
+          active-label-text-color: #e2e3de,
+          active-ripple-color: #e2e3de,
+          inactive-ripple-color: #e2e3de,
+          inactive-focus-label-text-color: #e2e3de,
+          inactive-hover-label-text-color: #e2e3de,
+          active-focus-label-text-color: #e2e3de,
+          active-hover-label-text-color: #e2e3de,
+          active-focus-indicator-color: #00e472,
+          active-hover-indicator-color: #00e472
+        ),
+      (mat, table):
+        (
+          background-color: #191c19,
+          header-headline-color: #e2e3de,
+          row-item-label-text-color: #e2e3de,
+          row-item-outline-color: #414941
+        ),
+      (mat, text-button, primary): (),
+      (mat, text-button, secondary):
+        (
+          state-layer-color: #b7ccb7,
+          ripple-color: rgba(183, 204, 183, 0.12)
+        ),
+      (mat, text-button, tertiary):
+        (
+          state-layer-color: #00dddd,
+          ripple-color: rgba(0, 221, 221, 0.12)
+        ),
+      (mat, text-button, error):
+        (
+          state-layer-color: #ffb4ab,
+          ripple-color: rgba(255, 180, 171, 0.12)
+        ),
+      (mat, text-button):
+        (
+          state-layer-color: #00e472,
+          disabled-state-layer-color: #c1c9be,
+          ripple-color: rgba(0, 228, 114, 0.12),
+          hover-state-layer-opacity: 0.08,
+          focus-state-layer-opacity: 0.12,
+          pressed-state-layer-opacity: 0.12
+        ),
+      (mat, toolbar):
+        (
+          container-background-color: #191c19,
+          container-text-color: #e2e3de
+        ),
+      (mat, tree):
+        (
+          container-background-color: #191c19,
+          node-text-color: #e2e3de
+        ),
+      (mdc, checkbox, primary): (),
+      (mdc, checkbox, secondary):
+        (
+          selected-checkmark-color: #233425,
+          selected-focus-icon-color: #b7ccb7,
+          selected-hover-icon-color: #b7ccb7,
+          selected-icon-color: #b7ccb7,
+          selected-pressed-icon-color: #b7ccb7,
+          selected-focus-state-layer-color: #b7ccb7,
+          selected-hover-state-layer-color: #b7ccb7,
+          unselected-pressed-state-layer-color: #b7ccb7
+        ),
+      (mdc, checkbox, tertiary):
+        (
+          selected-checkmark-color: #003737,
+          selected-focus-icon-color: #00dddd,
+          selected-hover-icon-color: #00dddd,
+          selected-icon-color: #00dddd,
+          selected-pressed-icon-color: #00dddd,
+          selected-focus-state-layer-color: #00dddd,
+          selected-hover-state-layer-color: #00dddd,
+          unselected-pressed-state-layer-color: #00dddd
+        ),
+      (mdc, checkbox, error):
+        (
+          selected-checkmark-color: #690005,
+          selected-focus-icon-color: #ffb4ab,
+          selected-hover-icon-color: #ffb4ab,
+          selected-icon-color: #ffb4ab,
+          selected-pressed-icon-color: #ffb4ab,
+          selected-focus-state-layer-color: #ffb4ab,
+          selected-hover-state-layer-color: #ffb4ab,
+          unselected-pressed-state-layer-color: #ffb4ab
+        ),
+      (mdc, checkbox):
+        (
+          disabled-selected-checkmark-color: #191c19,
+          selected-focus-state-layer-opacity: 0.12,
+          selected-hover-state-layer-opacity: 0.08,
+          selected-pressed-state-layer-opacity: 0.12,
+          unselected-focus-state-layer-opacity: 0.12,
+          unselected-hover-state-layer-opacity: 0.08,
+          unselected-pressed-state-layer-opacity: 0.12,
+          disabled-selected-icon-color: rgba(226, 227, 222, 0.38),
+          disabled-unselected-icon-color: rgba(226, 227, 222, 0.38),
+          selected-checkmark-color: #003917,
+          selected-focus-icon-color: #00e472,
+          selected-hover-icon-color: #00e472,
+          selected-icon-color: #00e472,
+          selected-pressed-icon-color: #00e472,
+          unselected-focus-icon-color: #e2e3de,
+          unselected-hover-icon-color: #e2e3de,
+          unselected-icon-color: #c1c9be,
+          unselected-pressed-icon-color: #e2e3de,
+          selected-focus-state-layer-color: #00e472,
+          selected-hover-state-layer-color: #00e472,
+          selected-pressed-state-layer-color: #e2e3de,
+          unselected-focus-state-layer-color: #e2e3de,
+          unselected-hover-state-layer-color: #e2e3de,
+          unselected-pressed-state-layer-color: #00e472
+        ),
+      (mdc, chip, primary):
+        (
+          elevated-selected-container-color: #005225,
+          selected-hover-state-layer-color: #63ff94,
+          selected-focus-state-layer-color: #63ff94,
+          selected-label-text-color: #63ff94,
+          with-icon-selected-icon-color: #63ff94
+        ),
+      (mdc, chip, secondary): (),
+      (mdc, chip, tertiary):
+        (
+          elevated-selected-container-color: #004f4f,
+          selected-hover-state-layer-color: #00fbfb,
+          selected-focus-state-layer-color: #00fbfb,
+          selected-label-text-color: #00fbfb,
+          with-icon-selected-icon-color: #00fbfb
+        ),
+      (mdc, chip, error):
+        (
+          elevated-selected-container-color: #93000a,
+          selected-hover-state-layer-color: #ffdad6,
+          selected-focus-state-layer-color: #ffdad6,
+          selected-label-text-color: #ffdad6,
+          with-icon-selected-icon-color: #ffdad6
+        ),
+      (mdc, chip):
+        (
+          outline-color: #8b9389,
+          disabled-outline-color: rgba(226, 227, 222, 0.12),
+          focus-outline-color: #c1c9be,
+          hover-state-layer-opacity: 0.08,
+          selected-hover-state-layer-opacity: 0.08,
+          disabled-label-text-color: rgba(226, 227, 222, 0.38),
+          elevated-selected-container-color: #394b3b,
+          flat-disabled-selected-container-color: rgba(226, 227, 222, 0.12),
+          focus-state-layer-color: #c1c9be,
+          hover-state-layer-color: #c1c9be,
+          selected-hover-state-layer-color: #d3e8d2,
+          focus-state-layer-opacity: 0.12,
+          selected-focus-state-layer-color: #d3e8d2,
+          selected-focus-state-layer-opacity: 0.12,
+          label-text-color: #c1c9be,
+          selected-label-text-color: #d3e8d2,
+          with-icon-icon-color: #c1c9be,
+          with-icon-disabled-icon-color: #e2e3de,
+          with-icon-selected-icon-color: #d3e8d2,
+          with-trailing-icon-disabled-trailing-icon-color: #e2e3de,
+          with-trailing-icon-trailing-icon-color: #c1c9be
+        ),
+      (mdc, text-button, primary): (),
+      (mdc, text-button, secondary):
+        (
+          label-text-color: #b7ccb7
+        ),
+      (mdc, text-button, tertiary):
+        (
+          label-text-color: #00dddd
+        ),
+      (mdc, text-button, error):
+        (
+          label-text-color: #ffb4ab
+        ),
+      (mdc, text-button):
+        (
+          label-text-color: #00e472,
+          disabled-label-text-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mdc, protected-button, primary): (),
+      (mdc, protected-button, secondary):
+        (
+          label-text-color: #b7ccb7
+        ),
+      (mdc, protected-button, tertiary):
+        (
+          label-text-color: #00dddd
+        ),
+      (mdc, protected-button, error):
+        (
+          label-text-color: #ffb4ab
+        ),
+      (mdc, protected-button):
+        (
+          container-color: #191c19,
+          label-text-color: #00e472,
+          disabled-container-color: rgba(226, 227, 222, 0.12),
+          disabled-label-text-color: rgba(226, 227, 222, 0.38),
+          container-elevation: 1,
+          disabled-container-elevation: 0,
+          focus-container-elevation: 1,
+          hover-container-elevation: 3,
+          pressed-container-elevation: 1,
+          container-shadow-color: #000000
+        ),
+      (mdc, filled-button, primary): (),
+      (mdc, filled-button, secondary):
+        (
+          container-color: #b7ccb7,
+          label-text-color: #233425
+        ),
+      (mdc, filled-button, tertiary):
+        (
+          container-color: #00dddd,
+          label-text-color: #003737
+        ),
+      (mdc, filled-button, error):
+        (
+          container-color: #ffb4ab,
+          label-text-color: #690005
+        ),
+      (mdc, filled-button):
+        (
+          container-color: #00e472,
+          label-text-color: #003917,
+          disabled-container-color: rgba(226, 227, 222, 0.12),
+          disabled-label-text-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mdc, outlined-button, primary): (),
+      (mdc, outlined-button, secondary):
+        (
+          label-text-color: #b7ccb7
+        ),
+      (mdc, outlined-button, tertiary):
+        (
+          label-text-color: #00dddd
+        ),
+      (mdc, outlined-button, error):
+        (
+          label-text-color: #ffb4ab
+        ),
+      (mdc, outlined-button):
+        (
+          disabled-outline-color: rgba(226, 227, 222, 0.12),
+          disabled-label-text-color: rgba(226, 227, 222, 0.38),
+          label-text-color: #00e472,
+          outline-color: #8b9389
+        ),
+      (mdc, circular-progress, primary): (),
+      (mdc, circular-progress, secondary):
+        (
+          active-indicator-color: #b7ccb7
+        ),
+      (mdc, circular-progress, tertiary):
+        (
+          active-indicator-color: #00dddd
+        ),
+      (mdc, circular-progress, error):
+        (
+          active-indicator-color: #ffb4ab
+        ),
+      (mdc, circular-progress):
+        (
+          active-indicator-color: #00e472
+        ),
+      (mdc, dialog):
+        (
+          container-color: #191c19,
+          subhead-color: #e2e3de,
+          supporting-text-color: #c1c9be
+        ),
+      (mdc, elevated-card):
+        (
+          container-color: #191c19,
+          container-elevation: 1,
+          container-shadow-color: #000000
+        ),
+      (mdc, extended-fab, primary): (),
+      (mdc, extended-fab, secondary):
+        (
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, extended-fab, tertiary):
+        (
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, extended-fab):
+        (
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab, primary): (),
+      (mdc, fab, secondary):
+        (
+          container-color: #394b3b,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab, tertiary):
+        (
+          container-color: #004f4f,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab):
+        (
+          container-color: #005225,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab-small, primary): (),
+      (mdc, fab-small, secondary):
+        (
+          container-color: #394b3b,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab-small, tertiary):
+        (
+          container-color: #004f4f,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, fab-small):
+        (
+          container-color: #005225,
+          container-elevation: 6,
+          focus-container-elevation: 6,
+          hover-container-elevation: 8,
+          pressed-container-elevation: 6,
+          container-shadow-color: #000000
+        ),
+      (mdc, filled-text-field, primary): (),
+      (mdc, filled-text-field, secondary):
+        (
+          caret-color: #b7ccb7,
+          focus-active-indicator-color: #b7ccb7,
+          focus-label-text-color: #b7ccb7
+        ),
+      (mdc, filled-text-field, tertiary):
+        (
+          caret-color: #00dddd,
+          focus-active-indicator-color: #00dddd,
+          focus-label-text-color: #00dddd
+        ),
+      (mdc, filled-text-field, error):
+        (
+          caret-color: #ffb4ab,
+          focus-active-indicator-color: #ffb4ab,
+          focus-label-text-color: #ffb4ab
+        ),
+      (mdc, filled-text-field):
+        (
+          caret-color: #00e472,
+          focus-active-indicator-color: #00e472,
+          focus-label-text-color: #00e472,
+          container-color: #414941,
+          disabled-container-color: rgba(226, 227, 222, 0.04),
+          label-text-color: #c1c9be,
+          hover-label-text-color: #c1c9be,
+          disabled-label-text-color: rgba(226, 227, 222, 0.38),
+          input-text-color: #e2e3de,
+          disabled-input-text-color: rgba(226, 227, 222, 0.38),
+          input-text-placeholder-color: #c1c9be,
+          error-hover-label-text-color: #ffdad6,
+          error-focus-label-text-color: #ffb4ab,
+          error-label-text-color: #ffb4ab,
+          active-indicator-color: #c1c9be,
+          disabled-active-indicator-color: rgba(226, 227, 222, 0.38),
+          hover-active-indicator-color: #e2e3de,
+          error-active-indicator-color: #ffb4ab,
+          error-focus-active-indicator-color: #ffb4ab,
+          error-hover-active-indicator-color: #ffdad6
+        ),
+      (mdc, icon-button):
+        (
+          icon-color: #c1c9be,
+          disabled-icon-color: rgba(226, 227, 222, 0.38)
+        ),
+      (mdc, linear-progress, primary): (),
+      (mdc, linear-progress, secondary):
+        (
+          active-indicator-color: #b7ccb7,
+          track-color: #394b3b
+        ),
+      (mdc, linear-progress, tertiary):
+        (
+          active-indicator-color: #00dddd,
+          track-color: #004f4f
+        ),
+      (mdc, linear-progress, error):
+        (
+          active-indicator-color: #ffb4ab,
+          track-color: #93000a
+        ),
+      (mdc, linear-progress):
+        (
+          active-indicator-color: #00e472,
+          track-color: #414941
+        ),
+      (mdc, list):
+        (
+          list-item-container-color: transparent,
+          list-item-leading-avatar-color: #005225,
+          list-item-disabled-state-layer-color: #e2e3de,
+          list-item-disabled-state-layer-opacity: 0.12,
+          list-item-label-text-color: #e2e3de,
+          list-item-supporting-text-color: #c1c9be,
+          list-item-leading-icon-color: #c1c9be,
+          list-item-trailing-supporting-text-color: #c1c9be,
+          list-item-trailing-icon-color: #c1c9be,
+          list-item-selected-trailing-icon-color: #00e472,
+          list-item-disabled-label-text-color: #e2e3de,
+          list-item-disabled-leading-icon-color: #e2e3de,
+          list-item-disabled-trailing-icon-color: #e2e3de,
+          list-item-hover-label-text-color: #e2e3de,
+          list-item-focus-label-text-color: #e2e3de,
+          list-item-hover-state-layer-color: #e2e3de,
+          list-item-hover-state-layer-opacity: 0.08,
+          list-item-focus-state-layer-color: #e2e3de,
+          list-item-focus-state-layer-opacity: 0.12
+        ),
+      (mdc, outlined-card):
+        (
+          container-color: #191c19,
+          outline-color: #414941,
+          container-elevation: 0,
+          container-shadow-color: #000000
+        ),
+      (mdc, outlined-text-field, primary): (),
+      (mdc, outlined-text-field, secondary):
+        (
+          caret-color: #b7ccb7,
+          focus-outline-color: #b7ccb7,
+          focus-label-text-color: #b7ccb7
+        ),
+      (mdc, outlined-text-field, tertiary):
+        (
+          caret-color: #00dddd,
+          focus-outline-color: #00dddd,
+          focus-label-text-color: #00dddd
+        ),
+      (mdc, outlined-text-field, error):
+        (
+          caret-color: #ffb4ab,
+          focus-outline-color: #ffb4ab,
+          focus-label-text-color: #ffb4ab
+        ),
+      (mdc, outlined-text-field):
+        (
+          caret-color: #00e472,
+          focus-outline-color: #00e472,
+          focus-label-text-color: #00e472,
+          label-text-color: #c1c9be,
+          hover-label-text-color: #e2e3de,
+          disabled-label-text-color: rgba(226, 227, 222, 0.38),
+          input-text-color: #e2e3de,
+          disabled-input-text-color: rgba(226, 227, 222, 0.38),
+          input-text-placeholder-color: #c1c9be,
+          error-focus-label-text-color: #ffb4ab,
+          error-label-text-color: #ffb4ab,
+          error-hover-label-text-color: #ffdad6,
+          outline-color: #8b9389,
+          disabled-outline-color: rgba(226, 227, 222, 0.12),
+          hover-outline-color: #e2e3de,
+          error-focus-outline-color: #ffb4ab,
+          error-hover-outline-color: #ffdad6,
+          error-outline-color: #ffb4ab
+        ),
+      (mdc, plain-tooltip):
+        (
+          container-color: #e2e3de,
+          supporting-text-color: #2e312e
+        ),
+      (mdc, radio, primary): (),
+      (mdc, radio, secondary):
+        (
+          selected-focus-icon-color: #b7ccb7,
+          selected-hover-icon-color: #b7ccb7,
+          selected-icon-color: #b7ccb7,
+          selected-pressed-icon-color: #b7ccb7
+        ),
+      (mdc, radio, tertiary):
+        (
+          selected-focus-icon-color: #00dddd,
+          selected-hover-icon-color: #00dddd,
+          selected-icon-color: #00dddd,
+          selected-pressed-icon-color: #00dddd
+        ),
+      (mdc, radio, error):
+        (
+          selected-focus-icon-color: #ffb4ab,
+          selected-hover-icon-color: #ffb4ab,
+          selected-icon-color: #ffb4ab,
+          selected-pressed-icon-color: #ffb4ab
+        ),
+      (mdc, radio):
+        (
+          disabled-selected-icon-color: #e2e3de,
+          disabled-unselected-icon-color: #e2e3de,
+          unselected-hover-icon-color: #e2e3de,
+          unselected-icon-color: #c1c9be,
+          unselected-pressed-icon-color: #e2e3de,
+          selected-focus-icon-color: #00e472,
+          selected-hover-icon-color: #00e472,
+          selected-icon-color: #00e472,
+          selected-pressed-icon-color: #00e472
+        ),
+      (mdc, slider, primary): (),
+      (mdc, slider, secondary):
+        (
+          handle-color: #b7ccb7,
+          focus-handle-color: #b7ccb7,
+          hover-handle-color: #b7ccb7,
+          active-track-color: #b7ccb7,
+          with-tick-marks-active-container-color: #233425,
+          label-container-color: #b7ccb7,
+          label-label-text-color: #233425,
+          with-overlap-handle-outline-color: #233425
+        ),
+      (mdc, slider, tertiary):
+        (
+          handle-color: #00dddd,
+          focus-handle-color: #00dddd,
+          hover-handle-color: #00dddd,
+          active-track-color: #00dddd,
+          with-tick-marks-active-container-color: #003737,
+          label-container-color: #00dddd,
+          label-label-text-color: #003737,
+          with-overlap-handle-outline-color: #003737
+        ),
+      (mdc, slider, error):
+        (
+          handle-color: #ffb4ab,
+          focus-handle-color: #ffb4ab,
+          hover-handle-color: #ffb4ab,
+          active-track-color: #ffb4ab,
+          with-tick-marks-active-container-color: #690005,
+          label-container-color: #ffb4ab,
+          label-label-text-color: #690005,
+          with-overlap-handle-outline-color: #690005
+        ),
+      (mdc, slider):
+        (
+          handle-color: #00e472,
+          focus-handle-color: #00e472,
+          hover-handle-color: #00e472,
+          active-track-color: #00e472,
+          inactive-track-color: #414941,
+          with-tick-marks-inactive-container-color: #c1c9be,
+          with-tick-marks-active-container-color: #003917,
+          disabled-active-track-color: #e2e3de,
+          disabled-handle-color: #e2e3de,
+          disabled-inactive-track-color: #e2e3de,
+          label-container-color: #00e472,
+          label-label-text-color: #003917,
+          with-overlap-handle-outline-color: #003917,
+          with-tick-marks-disabled-container-color: #e2e3de,
+          handle-elevation: 1,
+          handle-shadow-color: #000000
+        ),
+      (mdc, snackbar):
+        (
+          container-color: #e2e3de,
+          supporting-text-color: #2e312e
+        ),
+      (mdc, switch, primary): (),
+      (mdc, switch, secondary):
+        (
+          selected-focus-state-layer-color: #b7ccb7,
+          selected-handle-color: #233425,
+          selected-hover-state-layer-color: #b7ccb7,
+          selected-pressed-state-layer-color: #b7ccb7,
+          selected-focus-handle-color: #394b3b,
+          selected-hover-handle-color: #394b3b,
+          selected-pressed-handle-color: #394b3b,
+          selected-focus-track-color: #b7ccb7,
+          selected-hover-track-color: #b7ccb7,
+          selected-pressed-track-color: #b7ccb7,
+          selected-track-color: #b7ccb7,
+          selected-icon-color: #d3e8d2
+        ),
+      (mdc, switch, tertiary):
+        (
+          selected-focus-state-layer-color: #00dddd,
+          selected-handle-color: #003737,
+          selected-hover-state-layer-color: #00dddd,
+          selected-pressed-state-layer-color: #00dddd,
+          selected-focus-handle-color: #004f4f,
+          selected-hover-handle-color: #004f4f,
+          selected-pressed-handle-color: #004f4f,
+          selected-focus-track-color: #00dddd,
+          selected-hover-track-color: #00dddd,
+          selected-pressed-track-color: #00dddd,
+          selected-track-color: #00dddd,
+          selected-icon-color: #00fbfb
+        ),
+      (mdc, switch, error):
+        (
+          selected-focus-state-layer-color: #ffb4ab,
+          selected-handle-color: #690005,
+          selected-hover-state-layer-color: #ffb4ab,
+          selected-pressed-state-layer-color: #ffb4ab,
+          selected-focus-handle-color: #93000a,
+          selected-hover-handle-color: #93000a,
+          selected-pressed-handle-color: #93000a,
+          selected-focus-track-color: #ffb4ab,
+          selected-hover-track-color: #ffb4ab,
+          selected-pressed-track-color: #ffb4ab,
+          selected-track-color: #ffb4ab,
+          selected-icon-color: #ffdad6
+        ),
+      (mdc, switch):
+        (
+          selected-focus-state-layer-opacity: 0.12,
+          selected-hover-state-layer-opacity: 0.08,
+          selected-pressed-state-layer-opacity: 0.12,
+          unselected-focus-state-layer-opacity: 0.12,
+          unselected-hover-state-layer-opacity: 0.08,
+          unselected-pressed-state-layer-opacity: 0.12,
+          selected-focus-state-layer-color: #00e472,
+          selected-handle-color: #003917,
+          selected-hover-state-layer-color: #00e472,
+          selected-pressed-state-layer-color: #00e472,
+          selected-focus-handle-color: #005225,
+          selected-hover-handle-color: #005225,
+          selected-pressed-handle-color: #005225,
+          selected-focus-track-color: #00e472,
+          selected-hover-track-color: #00e472,
+          selected-pressed-track-color: #00e472,
+          selected-track-color: #00e472,
+          disabled-selected-handle-color: #191c19,
+          disabled-selected-icon-color: #e2e3de,
+          disabled-selected-track-color: #e2e3de,
+          disabled-unselected-handle-color: #e2e3de,
+          disabled-unselected-icon-color: #414941,
+          disabled-unselected-track-color: #414941,
+          selected-icon-color: #63ff94,
+          unselected-focus-handle-color: #c1c9be,
+          unselected-focus-state-layer-color: #e2e3de,
+          unselected-focus-track-color: #414941,
+          unselected-handle-color: #8b9389,
+          unselected-hover-handle-color: #c1c9be,
+          unselected-hover-state-layer-color: #e2e3de,
+          unselected-hover-track-color: #414941,
+          unselected-icon-color: #414941,
+          unselected-pressed-handle-color: #c1c9be,
+          unselected-pressed-state-layer-color: #e2e3de,
+          unselected-pressed-track-color: #414941,
+          unselected-track-color: #414941
+        ),
+      (mdc, tab): (),
+      (mdc, tab-indicator, primary): (),
+      (mdc, tab-indicator, secondary):
+        (
+          active-indicator-color: #b7ccb7
+        ),
+      (mdc, tab-indicator, tertiary):
+        (
+          active-indicator-color: #00dddd
+        ),
+      (mdc, tab-indicator, error):
+        (
+          active-indicator-color: #ffb4ab
+        ),
+      (mdc, tab-indicator):
+        (
+          active-indicator-color: #00e472
+        )
+    ),
+    font-definition: (
+      plain: (
+        Roboto,
+        sans-serif
+      ),
+      brand: (
+        Roboto,
+        sans-serif
+      ),
+      bold: 700,
+      medium: 500,
+      regular: 400
+    ),
+    typography-tokens: (
+      (mdc, theme): (),
+      (mdc, typography):
+        (
+          "body-large": 400 1rem / 1.5rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "body-large-font": (
+            Roboto,
+            sans-serif
+          ),
+          "body-large-line-height": 1.5rem,
+          "body-large-size": 1rem,
+          "body-large-tracking": 0.031rem,
+          "body-large-weight": 400,
+          "body-medium": 400 0.875rem / 1.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "body-medium-font": (
+            Roboto,
+            sans-serif
+          ),
+          "body-medium-line-height": 1.25rem,
+          "body-medium-size": 0.875rem,
+          "body-medium-tracking": 0.016rem,
+          "body-medium-weight": 400,
+          "body-small": 400 0.75rem / 1rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "body-small-font": (
+            Roboto,
+            sans-serif
+          ),
+          "body-small-line-height": 1rem,
+          "body-small-size": 0.75rem,
+          "body-small-tracking": 0.025rem,
+          "body-small-weight": 400,
+          "display-large": 400 3.562rem / 4rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "display-large-font": (
+            Roboto,
+            sans-serif
+          ),
+          "display-large-line-height": 4rem,
+          "display-large-size": 3.562rem,
+          "display-large-tracking": -0.016rem,
+          "display-large-weight": 400,
+          "display-medium": 400 2.812rem / 3.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "display-medium-font": (
+            Roboto,
+            sans-serif
+          ),
+          "display-medium-line-height": 3.25rem,
+          "display-medium-size": 2.812rem,
+          "display-medium-tracking": 0rem,
+          "display-medium-weight": 400,
+          "display-small": 400 2.25rem / 2.75rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "display-small-font": (
+            Roboto,
+            sans-serif
+          ),
+          "display-small-line-height": 2.75rem,
+          "display-small-size": 2.25rem,
+          "display-small-tracking": 0rem,
+          "display-small-weight": 400,
+          "headline-large": 400 2rem / 2.5rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "headline-large-font": (
+            Roboto,
+            sans-serif
+          ),
+          "headline-large-line-height": 2.5rem,
+          "headline-large-size": 2rem,
+          "headline-large-tracking": 0rem,
+          "headline-large-weight": 400,
+          "headline-medium": 400 1.75rem / 2.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "headline-medium-font": (
+            Roboto,
+            sans-serif
+          ),
+          "headline-medium-line-height": 2.25rem,
+          "headline-medium-size": 1.75rem,
+          "headline-medium-tracking": 0rem,
+          "headline-medium-weight": 400,
+          "headline-small": 400 1.5rem / 2rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "headline-small-font": (
+            Roboto,
+            sans-serif
+          ),
+          "headline-small-line-height": 2rem,
+          "headline-small-size": 1.5rem,
+          "headline-small-tracking": 0rem,
+          "headline-small-weight": 400,
+          "label-large": 500 0.875rem / 1.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "label-large-font": (
+            Roboto,
+            sans-serif
+          ),
+          "label-large-line-height": 1.25rem,
+          "label-large-size": 0.875rem,
+          "label-large-tracking": 0.006rem,
+          "label-large-weight": 500,
+          "label-large-weight-prominent": 700,
+          "label-medium": 500 0.75rem / 1rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "label-medium-font": (
+            Roboto,
+            sans-serif
+          ),
+          "label-medium-line-height": 1rem,
+          "label-medium-size": 0.75rem,
+          "label-medium-tracking": 0.031rem,
+          "label-medium-weight": 500,
+          "label-medium-weight-prominent": 700,
+          "label-small": 500 0.688rem / 1rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "label-small-font": (
+            Roboto,
+            sans-serif
+          ),
+          "label-small-line-height": 1rem,
+          "label-small-size": 0.688rem,
+          "label-small-tracking": 0.031rem,
+          "label-small-weight": 500,
+          "title-large": 400 1.375rem / 1.75rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "title-large-font": (
+            Roboto,
+            sans-serif
+          ),
+          "title-large-line-height": 1.75rem,
+          "title-large-size": 1.375rem,
+          "title-large-tracking": 0rem,
+          "title-large-weight": 400,
+          "title-medium": 500 1rem / 1.5rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "title-medium-font": (
+            Roboto,
+            sans-serif
+          ),
+          "title-medium-line-height": 1.5rem,
+          "title-medium-size": 1rem,
+          "title-medium-tracking": 0.009rem,
+          "title-medium-weight": 500,
+          "title-small": 500 0.875rem / 1.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          "title-small-font": (
+            Roboto,
+            sans-serif
+          ),
+          "title-small-line-height": 1.25rem,
+          "title-small-size": 0.875rem,
+          "title-small-tracking": 0.006rem,
+          "title-small-weight": 500
+        ),
+      (mat, app): (),
+      (mat, autocomplete): (),
+      (mat, badge, primary): (),
+      (mat, badge, secondary): (),
+      (mat, badge, tertiary): (),
+      (mat, badge, error): (),
+      (mat, badge):
+        (
+          text-font: (
+            Roboto,
+            sans-serif
+          ),
+          text-size: 0.688rem,
+          text-weight: 500,
+          large-size-text-size: 0.688rem
+        ),
+      (mat, bottom-sheet):
+        (
+          container-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          container-text-line-height: 1.5rem,
+          container-text-size: 1rem,
+          container-text-tracking: 0.031rem,
+          container-text-weight: 400
+        ),
+      (mat, standard-button-toggle):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mat, card):
+        (
+          title-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          title-text-line-height: 1.75rem,
+          title-text-size: 1.375rem,
+          title-text-tracking: 0rem,
+          title-text-weight: 400,
+          subtitle-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          subtitle-text-line-height: 1.5rem,
+          subtitle-text-size: 1rem,
+          subtitle-text-tracking: 0.009rem,
+          subtitle-text-weight: 500
+        ),
+      (mat, chip, primary): (),
+      (mat, chip, secondary): (),
+      (mat, chip, tertiary): (),
+      (mat, chip, error): (),
+      (mat, chip): (),
+      (mat, datepicker, primary): (),
+      (mat, datepicker, secondary): (),
+      (mat, datepicker, tertiary): (),
+      (mat, datepicker, error): (),
+      (mat, datepicker):
+        (
+          calendar-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          calendar-text-size: 1rem,
+          calendar-body-label-text-size: 0.875rem,
+          calendar-body-label-text-weight: 500,
+          calendar-period-button-text-size: 0.875rem,
+          calendar-period-button-text-weight: 500,
+          calendar-header-text-size: 0.875rem,
+          calendar-header-text-weight: 500
+        ),
+      (mat, dialog): (),
+      (mat, divider): (),
+      (mat, expansion):
+        (
+          header-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          header-text-size: 1rem,
+          header-text-weight: 500,
+          header-text-line-height: 1.5rem,
+          header-text-tracking: 0.009rem,
+          container-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          container-text-line-height: 1.5rem,
+          container-text-size: 1rem,
+          container-text-tracking: 0.031rem,
+          container-text-weight: 400
+        ),
+      (mat, fab, primary): (),
+      (mat, fab, secondary): (),
+      (mat, fab, tertiary): (),
+      (mat, fab): (),
+      (mat, fab-small, primary): (),
+      (mat, fab-small, secondary): (),
+      (mat, fab-small, tertiary): (),
+      (mat, fab-small): (),
+      (mat, filled-button, primary): (),
+      (mat, filled-button, secondary): (),
+      (mat, filled-button, tertiary): (),
+      (mat, filled-button, error): (),
+      (mat, filled-button): (),
+      (mat, form-field, primary): (),
+      (mat, form-field, secondary): (),
+      (mat, form-field, tertiary): (),
+      (mat, form-field, error): (),
+      (mat, form-field):
+        (
+          container-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          container-text-line-height: 1.5rem,
+          container-text-size: 1rem,
+          container-text-tracking: 0.031rem,
+          container-text-weight: 400,
+          subscript-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          subscript-text-line-height: 1rem,
+          subscript-text-size: 0.75rem,
+          subscript-text-tracking: 0.025rem,
+          subscript-text-weight: 400
+        ),
+      (mat, grid-list):
+        (
+          tile-header-primary-text-size: 400 1rem / 1.5rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          tile-header-secondary-text-size: 400 0.875rem / 1.25rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          tile-footer-primary-text-size: 400 1rem / 1.5rem
+            (
+              Roboto,
+              sans-serif
+            ),
+          tile-footer-secondary-text-size: 400 0.875rem / 1.25rem
+            (
+              Roboto,
+              sans-serif
+            )
+        ),
+      (mat, icon-button): (),
+      (mat, icon, surface): (),
+      (mat, icon, primary): (),
+      (mat, icon, secondary): (),
+      (mat, icon, tertiary): (),
+      (mat, icon, error): (),
+      (mat, icon): (),
+      (mat, menu):
+        (
+          item-label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          item-label-text-size: 0.875rem,
+          item-label-text-tracking: 0.006rem,
+          item-label-text-line-height: 1.25rem,
+          item-label-text-weight: 500
+        ),
+      (mat, optgroup):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mat, option, primary): (),
+      (mat, option, secondary): (),
+      (mat, option, tertiary): (),
+      (mat, option, error): (),
+      (mat, option):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 1rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 400
+        ),
+      (mat, outlined-button, primary): (),
+      (mat, outlined-button, secondary): (),
+      (mat, outlined-button, tertiary): (),
+      (mat, outlined-button, error): (),
+      (mat, outlined-button): (),
+      (mat, paginator):
+        (
+          container-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          container-text-line-height: 1rem,
+          container-text-size: 0.75rem,
+          container-text-tracking: 0.025rem,
+          container-text-weight: 400,
+          select-trigger-text-size: 0.75rem
+        ),
+      (mat, checkbox):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.016rem,
+          label-text-weight: 400
+        ),
+      (mat, full-pseudo-checkbox, primary): (),
+      (mat, full-pseudo-checkbox, secondary): (),
+      (mat, full-pseudo-checkbox, tertiary): (),
+      (mat, full-pseudo-checkbox, error): (),
+      (mat, full-pseudo-checkbox): (),
+      (mat, list): (),
+      (mat, minimal-pseudo-checkbox, primary): (),
+      (mat, minimal-pseudo-checkbox, secondary): (),
+      (mat, minimal-pseudo-checkbox, tertiary): (),
+      (mat, minimal-pseudo-checkbox, error): (),
+      (mat, minimal-pseudo-checkbox): (),
+      (mat, protected-button, primary): (),
+      (mat, protected-button, secondary): (),
+      (mat, protected-button, tertiary): (),
+      (mat, protected-button, error): (),
+      (mat, protected-button): (),
+      (mat, radio, primary): (),
+      (mat, radio, secondary): (),
+      (mat, radio, tertiary): (),
+      (mat, radio, error): (),
+      (mat, radio):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.016rem,
+          label-text-weight: 400
+        ),
+      (mat, ripple): (),
+      (mat, select, primary): (),
+      (mat, select, secondary): (),
+      (mat, select, tertiary): (),
+      (mat, select, error): (),
+      (mat, select):
+        (
+          trigger-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          trigger-text-line-height: 1.5rem,
+          trigger-text-size: 1rem,
+          trigger-text-tracking: 0.031rem,
+          trigger-text-weight: 400
+        ),
+      (mat, sidenav): (),
+      (mat, slider, primary): (),
+      (mat, slider, secondary): (),
+      (mat, slider, tertiary): (),
+      (mat, slider, error): (),
+      (mat, slider): (),
+      (mat, switch):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.016rem,
+          label-text-weight: 400
+        ),
+      (mat, snack-bar): (),
+      (mat, sort): (),
+      (mat, stepper, primary): (),
+      (mat, stepper, secondary): (),
+      (mat, stepper, tertiary): (),
+      (mat, stepper, error): (),
+      (mat, stepper):
+        (
+          container-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          header-label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          header-label-text-size: 0.875rem,
+          header-label-text-weight: 500,
+          header-error-state-label-text-size: 0.875rem,
+          header-selected-state-label-text-size: 0.875rem,
+          header-selected-state-label-text-weight: 500
+        ),
+      (mat, tab-header, primary): (),
+      (mat, tab-header, secondary): (),
+      (mat, tab-header, tertiary): (),
+      (mat, tab-header, error): (),
+      (mat, tab-header):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-line-height: 1.25rem,
+          label-text-weight: 500
+        ),
+      (mat, table):
+        (
+          header-headline-font: (
+            Roboto,
+            sans-serif
+          ),
+          header-headline-line-height: 1.25rem,
+          header-headline-size: 0.875rem,
+          header-headline-weight: 500,
+          header-headline-tracking: 0.006rem,
+          row-item-label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          row-item-label-text-line-height: 1.25rem,
+          row-item-label-text-size: 0.875rem,
+          row-item-label-text-weight: 400,
+          row-item-label-text-tracking: 0.016rem,
+          footer-supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          footer-supporting-text-line-height: 1.25rem,
+          footer-supporting-text-size: 0.875rem,
+          footer-supporting-text-weight: 400,
+          footer-supporting-text-tracking: 0.016rem
+        ),
+      (mat, text-button, primary): (),
+      (mat, text-button, secondary): (),
+      (mat, text-button, tertiary): (),
+      (mat, text-button, error): (),
+      (mat, text-button): (),
+      (mat, toolbar):
+        (
+          title-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          title-text-line-height: 1.75rem,
+          title-text-size: 1.375rem,
+          title-text-tracking: 0rem,
+          title-text-weight: 400
+        ),
+      (mat, tree):
+        (
+          node-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          node-text-size: 1rem,
+          node-text-weight: 400
+        ),
+      (mdc, checkbox, primary): (),
+      (mdc, checkbox, secondary): (),
+      (mdc, checkbox, tertiary): (),
+      (mdc, checkbox, error): (),
+      (mdc, checkbox): (),
+      (mdc, chip, primary): (),
+      (mdc, chip, secondary): (),
+      (mdc, chip, tertiary): (),
+      (mdc, chip, error): (),
+      (mdc, chip):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-line-height: 1.25rem,
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, text-button, primary): (),
+      (mdc, text-button, secondary): (),
+      (mdc, text-button, tertiary): (),
+      (mdc, text-button, error): (),
+      (mdc, text-button):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, protected-button, primary): (),
+      (mdc, protected-button, secondary): (),
+      (mdc, protected-button, tertiary): (),
+      (mdc, protected-button, error): (),
+      (mdc, protected-button):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, filled-button, primary): (),
+      (mdc, filled-button, secondary): (),
+      (mdc, filled-button, tertiary): (),
+      (mdc, filled-button, error): (),
+      (mdc, filled-button):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, outlined-button, primary): (),
+      (mdc, outlined-button, secondary): (),
+      (mdc, outlined-button, tertiary): (),
+      (mdc, outlined-button, error): (),
+      (mdc, outlined-button):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, circular-progress, primary): (),
+      (mdc, circular-progress, secondary): (),
+      (mdc, circular-progress, tertiary): (),
+      (mdc, circular-progress, error): (),
+      (mdc, circular-progress): (),
+      (mdc, dialog):
+        (
+          subhead-font: (
+            Roboto,
+            sans-serif
+          ),
+          subhead-line-height: 2rem,
+          subhead-size: 1.5rem,
+          subhead-weight: 400,
+          subhead-tracking: 0rem,
+          supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          supporting-text-line-height: 1.25rem,
+          supporting-text-size: 0.875rem,
+          supporting-text-weight: 400,
+          supporting-text-tracking: 0.016rem
+        ),
+      (mdc, elevated-card): (),
+      (mdc, extended-fab, primary): (),
+      (mdc, extended-fab, secondary):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, extended-fab, tertiary):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, extended-fab):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 0.875rem,
+          label-text-tracking: 0.006rem,
+          label-text-weight: 500
+        ),
+      (mdc, fab, primary): (),
+      (mdc, fab, secondary): (),
+      (mdc, fab, tertiary): (),
+      (mdc, fab): (),
+      (mdc, fab-small, primary): (),
+      (mdc, fab-small, secondary): (),
+      (mdc, fab-small, tertiary): (),
+      (mdc, fab-small): (),
+      (mdc, filled-text-field, primary): (),
+      (mdc, filled-text-field, secondary): (),
+      (mdc, filled-text-field, tertiary): (),
+      (mdc, filled-text-field, error): (),
+      (mdc, filled-text-field):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 1rem,
+          label-text-tracking: 0.031rem,
+          label-text-weight: 400
+        ),
+      (mdc, icon-button): (),
+      (mdc, linear-progress, primary): (),
+      (mdc, linear-progress, secondary): (),
+      (mdc, linear-progress, tertiary): (),
+      (mdc, linear-progress, error): (),
+      (mdc, linear-progress): (),
+      (mdc, list):
+        (
+          list-item-label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          list-item-label-text-line-height: 1.5rem,
+          list-item-label-text-size: 1rem,
+          list-item-label-text-tracking: 0.031rem,
+          list-item-label-text-weight: 400,
+          list-item-supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          list-item-supporting-text-line-height: 1.25rem,
+          list-item-supporting-text-size: 0.875rem,
+          list-item-supporting-text-tracking: 0.016rem,
+          list-item-supporting-text-weight: 400,
+          list-item-trailing-supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          list-item-trailing-supporting-text-line-height: 1rem,
+          list-item-trailing-supporting-text-size: 0.688rem,
+          list-item-trailing-supporting-text-tracking: 0.031rem,
+          list-item-trailing-supporting-text-weight: 500
+        ),
+      (mdc, outlined-card): (),
+      (mdc, outlined-text-field, primary): (),
+      (mdc, outlined-text-field, secondary): (),
+      (mdc, outlined-text-field, tertiary): (),
+      (mdc, outlined-text-field, error): (),
+      (mdc, outlined-text-field):
+        (
+          label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-text-size: 1rem,
+          label-text-tracking: 0.031rem,
+          label-text-weight: 400
+        ),
+      (mdc, plain-tooltip):
+        (
+          supporting-text-line-height: 1rem,
+          supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          supporting-text-size: 0.75rem,
+          supporting-text-weight: 400,
+          supporting-text-tracking: 0.025rem
+        ),
+      (mdc, radio, primary): (),
+      (mdc, radio, secondary): (),
+      (mdc, radio, tertiary): (),
+      (mdc, radio, error): (),
+      (mdc, radio): (),
+      (mdc, slider, primary): (),
+      (mdc, slider, secondary): (),
+      (mdc, slider, tertiary): (),
+      (mdc, slider, error): (),
+      (mdc, slider):
+        (
+          label-label-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          label-label-text-size: 0.75rem,
+          label-label-text-line-height: 1rem,
+          label-label-text-tracking: 0.031rem,
+          label-label-text-weight: 500
+        ),
+      (mdc, snackbar):
+        (
+          supporting-text-font: (
+            Roboto,
+            sans-serif
+          ),
+          supporting-text-line-height: 1.25rem,
+          supporting-text-size: 0.875rem,
+          supporting-text-weight: 400
+        ),
+      (mdc, switch, primary): (),
+      (mdc, switch, secondary): (),
+      (mdc, switch, tertiary): (),
+      (mdc, switch, error): (),
+      (mdc, switch): (),
+      (mdc, tab): (),
+      (mdc, tab-indicator, primary): (),
+      (mdc, tab-indicator, secondary): (),
+      (mdc, tab-indicator, tertiary): (),
+      (mdc, tab-indicator, error): (),
+      (mdc, tab-indicator): ()
+    ),
+    density-scale: -3,
+    density-tokens: (
+      (mdc, checkbox):
+        (
+          state-layer-size: 28px
+        ),
+      (mdc, chip):
+        (
+          container-height: 24px
+        ),
+      (mdc, circular-progress): (),
+      (mdc, dialog): (),
+      (mdc, elevated-card): (),
+      (mdc, extended-fab): (),
+      (mdc, fab): (),
+      (mdc, fab-small): (),
+      (mdc, filled-text-field): (),
+      (mdc, text-button):
+        (
+          container-height: 28px
+        ),
+      (mdc, protected-button):
+        (
+          container-height: 28px
+        ),
+      (mdc, filled-button):
+        (
+          container-height: 28px
+        ),
+      (mdc, outlined-button):
+        (
+          container-height: 28px
+        ),
+      (mdc, icon-button):
+        (
+          state-layer-size: 28px
+        ),
+      (mdc, linear-progress): (),
+      (mdc, list):
+        (
+          list-item-one-line-container-height: 36px,
+          list-item-two-line-container-height: 52px,
+          list-item-three-line-container-height: 76px
+        ),
+      (mdc, outlined-card): (),
+      (mdc, outlined-text-field): (),
+      (mdc, plain-tooltip): (),
+      (mdc, radio):
+        (
+          state-layer-size: 28px
+        ),
+      (mdc, slider): (),
+      (mdc, snackbar): (),
+      (mdc, switch): (),
+      (mdc, tab):
+        (
+          container-height: 36px
+        ),
+      (mdc, tab-indicator): (),
+      (mat, autocomplete): (),
+      (mat, badge): (),
+      (mat, bottom-sheet): (),
+      (mat, card): (),
+      (mat, checkbox):
+        (
+          touch-target-display: none
+        ),
+      (mat, dialog): (),
+      (mat, datepicker): (),
+      (mat, divider): (),
+      (mat, expansion):
+        (
+          header-collapsed-state-height: 36px,
+          header-expanded-state-height: 48px
+        ),
+      (mat, fab):
+        (
+          touch-target-display: none
+        ),
+      (mat, form-field):
+        (
+          container-height: 44px,
+          filled-label-display: none,
+          container-vertical-padding: 10px,
+          filled-with-label-container-padding-top: 10px,
+          filled-with-label-container-padding-bottom: 10px
+        ),
+      (mat, grid-list): (),
+      (mat, icon): (),
+      (mat, icon-button):
+        (
+          touch-target-display: none
+        ),
+      (mat, list):
+        (
+          list-item-leading-icon-start-space: 4px,
+          list-item-leading-icon-end-space: 4px
+        ),
+      (mat, text-button):
+        (
+          touch-target-display: none
+        ),
+      (mat, protected-button):
+        (
+          touch-target-display: none
+        ),
+      (mat, filled-button):
+        (
+          touch-target-display: none
+        ),
+      (mat, outlined-button):
+        (
+          touch-target-display: none
+        ),
+      (mat, menu): (),
+      (mat, optgroup): (),
+      (mat, option): (),
+      (mat, full-pseudo-checkbox): (),
+      (mat, minimal-pseudo-checkbox): (),
+      (mat, paginator):
+        (
+          container-size: 40px,
+          form-field-container-height: 40px,
+          form-field-container-vertical-padding: 8px
+        ),
+      (mat, radio):
+        (
+          touch-target-display: none
+        ),
+      (mat, ripple): (),
+      (mat, select):
+        (
+          arrow-transform: none
+        ),
+      (mat, sidenav): (),
+      (mat, slide-toggle): (),
+      (mat, slider): (),
+      (mat, snack-bar): (),
+      (mat, sort): (),
+      (mat, standard-button-toggle):
+        (
+          height: 36px
+        ),
+      (mat, stepper):
+        (
+          header-height: 60px
+        ),
+      (mat, tab-header): (),
+      (mat, table):
+        (
+          header-container-height: 44px,
+          footer-container-height: 40px,
+          row-item-container-height: 40px
+        ),
+      (mat, toolbar):
+        (
+          standard-height: 52px,
+          mobile-height: 44px
+        ),
+      (mat, tree):
+        (
+          node-min-height: 36px
+        )
+    ),
+    base-tokens: (
+      (mdc, theme): (),
+      (mdc, typography): (),
+      (mat, app): (),
+      (mat, autocomplete):
+        (
+          container-shape: 4px,
+          container-elevation-shadow: (
+            0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+            0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+            0px 1px 5px 0px rgba(0, 0, 0, 0.12)
+          )
+        ),
+      (mat, badge, primary): (),
+      (mat, badge, secondary): (),
+      (mat, badge, tertiary): (),
+      (mat, badge, error): (),
+      (mat, badge):
+        (
+          container-shape: 9999px,
+          container-size: 16px,
+          small-size-container-size: 6px,
+          large-size-container-size: 16px,
+          legacy-container-size: unset,
+          legacy-small-size-container-size: unset,
+          legacy-large-size-container-size: unset,
+          container-offset: -12px 0,
+          small-size-container-offset: -6px 0,
+          large-size-container-offset: -12px 0,
+          container-overlap-offset: -12px,
+          small-size-container-overlap-offset: -6px,
+          large-size-container-overlap-offset: -12px,
+          container-padding: 0 4px,
+          small-size-container-padding: 0,
+          large-size-container-padding: 0 4px,
+          small-size-text-size: 0
+        ),
+      (mat, bottom-sheet):
+        (
+          container-shape: 28px
+        ),
+      (mat, standard-button-toggle):
+        (
+          shape: 9999px,
+          background-color: transparent,
+          disabled-state-background-color: transparent
+        ),
+      (mat, card): (),
+      (mat, chip, primary): (),
+      (mat, chip, secondary): (),
+      (mat, chip, tertiary): (),
+      (mat, chip, error): (),
+      (mat, chip):
+        (
+          disabled-container-opacity: 1,
+          trailing-action-opacity: 1,
+          trailing-action-focus-opacity: 1
+        ),
+      (mat, datepicker, primary): (),
+      (mat, datepicker, secondary): (),
+      (mat, datepicker, tertiary): (),
+      (mat, datepicker, error): (),
+      (mat, datepicker):
+        (
+          calendar-container-shape: 16px,
+          calendar-container-touch-shape: 28px,
+          calendar-container-elevation-shadow: (
+            0px 0px 0px 0px rgba(0, 0, 0, 0.2),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.14),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.12)
+          ),
+          calendar-container-touch-elevation-shadow: (
+            0px 0px 0px 0px rgba(0, 0, 0, 0.2),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.14),
+            0px 0px 0px 0px rgba(0, 0, 0, 0.12)
+          ),
+          calendar-header-divider-color: transparent,
+          calendar-date-outline-color: transparent
+        ),
+      (mat, dialog):
+        (
+          container-elevation-shadow: none,
+          container-max-width: 560px,
+          container-small-max-width: calc(100vw - 32px),
+          container-min-width: 280px,
+          actions-alignment: flex-end,
+          actions-padding: 16px 24px,
+          content-padding: 20px 24px,
+          with-actions-content-padding: 20px 24px 0,
+          headline-padding: 6px 24px 13px
+        ),
+      (mat, divider):
+        (
+          width: 1px
+        ),
+      (mat, expansion):
+        (
+          container-shape: 12px,
+          legacy-header-indicator-display: none,
+          header-indicator-display: inline-block
+        ),
+      (mat, fab, primary): (),
+      (mat, fab, secondary): (),
+      (mat, fab, tertiary): (),
+      (mat, fab): (),
+      (mat, fab-small, primary): (),
+      (mat, fab-small, secondary): (),
+      (mat, fab-small, tertiary): (),
+      (mat, fab-small): (),
+      (mat, filled-button, primary): (),
+      (mat, filled-button, secondary): (),
+      (mat, filled-button, tertiary): (),
+      (mat, filled-button, error): (),
+      (mat, filled-button):
+        (
+          horizontal-padding: 24px,
+          icon-spacing: 8px,
+          icon-offset: -8px
+        ),
+      (mat, form-field, primary): (),
+      (mat, form-field, secondary): (),
+      (mat, form-field, tertiary): (),
+      (mat, form-field, error): (),
+      (mat, form-field):
+        (
+          focus-state-layer-opacity: 0
+        ),
+      (mat, grid-list): (),
+      (mat, icon-button): (),
+      (mat, icon, surface): (),
+      (mat, icon, primary): (),
+      (mat, icon, secondary): (),
+      (mat, icon, tertiary): (),
+      (mat, icon, error): (),
+      (mat, icon):
+        (
+          color: inherit
+        ),
+      (mat, menu):
+        (
+          container-shape: 4px,
+          divider-bottom-spacing: 8px,
+          divider-top-spacing: 8px,
+          item-spacing: 12px,
+          item-icon-size: 24px,
+          item-leading-spacing: 12px,
+          item-trailing-spacing: 12px,
+          item-with-icon-leading-spacing: 12px,
+          item-with-icon-trailing-spacing: 12px
+        ),
+      (mat, optgroup): (),
+      (mat, option, primary): (),
+      (mat, option, secondary): (),
+      (mat, option, tertiary): (),
+      (mat, option, error): (),
+      (mat, option): (),
+      (mat, outlined-button, primary): (),
+      (mat, outlined-button, secondary): (),
+      (mat, outlined-button, tertiary): (),
+      (mat, outlined-button, error): (),
+      (mat, outlined-button):
+        (
+          horizontal-padding: 24px,
+          icon-spacing: 8px,
+          icon-offset: -8px
+        ),
+      (mat, paginator): (),
+      (mat, checkbox): (),
+      (mat, full-pseudo-checkbox, primary): (),
+      (mat, full-pseudo-checkbox, secondary): (),
+      (mat, full-pseudo-checkbox, tertiary): (),
+      (mat, full-pseudo-checkbox, error): (),
+      (mat, full-pseudo-checkbox): (),
+      (mat, list):
+        (
+          active-indicator-shape: 9999px
+        ),
+      (mat, minimal-pseudo-checkbox, primary): (),
+      (mat, minimal-pseudo-checkbox, secondary): (),
+      (mat, minimal-pseudo-checkbox, tertiary): (),
+      (mat, minimal-pseudo-checkbox, error): (),
+      (mat, minimal-pseudo-checkbox): (),
+      (mat, protected-button, primary): (),
+      (mat, protected-button, secondary): (),
+      (mat, protected-button, tertiary): (),
+      (mat, protected-button, error): (),
+      (mat, protected-button):
+        (
+          horizontal-padding: 24px,
+          icon-spacing: 8px,
+          icon-offset: -8px
+        ),
+      (mat, radio, primary): (),
+      (mat, radio, secondary): (),
+      (mat, radio, tertiary): (),
+      (mat, radio, error): (),
+      (mat, radio): (),
+      (mat, ripple): (),
+      (mat, select, primary): (),
+      (mat, select, secondary): (),
+      (mat, select, tertiary): (),
+      (mat, select, error): (),
+      (mat, select):
+        (
+          container-elevation-shadow: (
+            0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+            0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+            0px 1px 5px 0px rgba(0, 0, 0, 0.12)
+          )
+        ),
+      (mat, sidenav):
+        (
+          container-shape: 16px,
+          container-elevation-shadow: none,
+          container-width: 360px,
+          container-divider-color: transparent
+        ),
+      (mat, slider, primary): (),
+      (mat, slider, secondary): (),
+      (mat, slider, tertiary): (),
+      (mat, slider, error): (),
+      (mat, slider):
+        (
+          value-indicator-width: 28px,
+          value-indicator-height: 28px,
+          value-indicator-caret-display: none,
+          value-indicator-border-radius: 50% 50% 50% 0,
+          value-indicator-padding: 0,
+          value-indicator-text-transform: rotate(45deg),
+          value-indicator-container-transform: translateX(-50%) rotate(-45deg),
+          value-indicator-opacity: 1
+        ),
+      (mat, switch):
+        (
+          disabled-selected-handle-opacity: 1,
+          disabled-unselected-handle-opacity: 0.38,
+          unselected-handle-size: 16px,
+          selected-handle-size: 24px,
+          pressed-handle-size: 28px,
+          with-icon-handle-size: 24px,
+          selected-handle-horizontal-margin: 0 24px,
+          selected-with-icon-handle-horizontal-margin: 0 24px,
+          selected-pressed-handle-horizontal-margin: 0 22px,
+          unselected-handle-horizontal-margin: 0 8px,
+          unselected-with-icon-handle-horizontal-margin: 0 4px,
+          unselected-pressed-handle-horizontal-margin: 0 2px,
+          visible-track-opacity: 1,
+          hidden-track-opacity: 0,
+          visible-track-transition: opacity 75ms,
+          hidden-track-transition: opacity 75ms,
+          track-outline-width: 2px,
+          selected-track-outline-width: 2px,
+          selected-track-outline-color: transparent,
+          disabled-unselected-track-outline-width: 2px
+        ),
+      (mat, snack-bar): (),
+      (mat, sort): (),
+      (mat, stepper, primary): (),
+      (mat, stepper, secondary): (),
+      (mat, stepper, tertiary): (),
+      (mat, stepper, error): (),
+      (mat, stepper):
+        (
+          header-focus-state-layer-shape: 12px,
+          header-hover-state-layer-shape: 12px,
+          header-error-state-icon-background-color: transparent
+        ),
+      (mat, tab-header, primary): (),
+      (mat, tab-header, secondary): (),
+      (mat, tab-header, tertiary): (),
+      (mat, tab-header, error): (),
+      (mat, tab-header):
+        (
+          divider-height: 1px
+        ),
+      (mat, table):
+        (
+          row-item-outline-width: 1px
+        ),
+      (mat, text-button, primary): (),
+      (mat, text-button, secondary): (),
+      (mat, text-button, tertiary): (),
+      (mat, text-button, error): (),
+      (mat, text-button):
+        (
+          horizontal-padding: 12px,
+          with-icon-horizontal-padding: 16px,
+          icon-spacing: 8px,
+          icon-offset: -4px
+        ),
+      (mat, toolbar): (),
+      (mat, tree): (),
+      (mdc, checkbox, primary): (),
+      (mdc, checkbox, secondary): (),
+      (mdc, checkbox, tertiary): (),
+      (mdc, checkbox, error): (),
+      (mdc, checkbox): (),
+      (mdc, chip, primary): (),
+      (mdc, chip, secondary): (),
+      (mdc, chip, tertiary): (),
+      (mdc, chip, error): (),
+      (mdc, chip):
+        (
+          container-shape: (
+            family: rounded,
+            radius: 8px
+          ),
+          with-avatar-avatar-size: 24px,
+          with-icon-icon-size: 18px,
+          outline-width: 1px,
+          with-avatar-disabled-avatar-opacity: 0.38,
+          flat-selected-outline-width: 0,
+          with-trailing-icon-disabled-trailing-icon-opacity: 0.38,
+          with-icon-disabled-icon-opacity: 0.38
+        ),
+      (mdc, text-button, primary): (),
+      (mdc, text-button, secondary): (),
+      (mdc, text-button, tertiary): (),
+      (mdc, text-button, error): (),
+      (mdc, text-button):
+        (
+          container-shape: 9999px
+        ),
+      (mdc, protected-button, primary): (),
+      (mdc, protected-button, secondary): (),
+      (mdc, protected-button, tertiary): (),
+      (mdc, protected-button, error): (),
+      (mdc, protected-button):
+        (
+          container-shape: 9999px
+        ),
+      (mdc, filled-button, primary): (),
+      (mdc, filled-button, secondary): (),
+      (mdc, filled-button, tertiary): (),
+      (mdc, filled-button, error): (),
+      (mdc, filled-button):
+        (
+          container-shape: 9999px
+        ),
+      (mdc, outlined-button, primary): (),
+      (mdc, outlined-button, secondary): (),
+      (mdc, outlined-button, tertiary): (),
+      (mdc, outlined-button, error): (),
+      (mdc, outlined-button):
+        (
+          outline-width: 1px,
+          container-shape: 9999px
+        ),
+      (mdc, circular-progress, primary): (),
+      (mdc, circular-progress, secondary): (),
+      (mdc, circular-progress, tertiary): (),
+      (mdc, circular-progress, error): (),
+      (mdc, circular-progress):
+        (
+          active-indicator-width: 4px,
+          size: 48px
+        ),
+      (mdc, dialog):
+        (
+          container-shape: 28px
+        ),
+      (mdc, elevated-card):
+        (
+          container-shape: 12px
+        ),
+      (mdc, extended-fab, primary): (),
+      (mdc, extended-fab, secondary):
+        (
+          container-height: 56px,
+          container-shape: 16px
+        ),
+      (mdc, extended-fab, tertiary):
+        (
+          container-height: 56px,
+          container-shape: 16px
+        ),
+      (mdc, extended-fab):
+        (
+          container-height: 56px,
+          container-shape: 16px
+        ),
+      (mdc, fab, primary): (),
+      (mdc, fab, secondary):
+        (
+          container-shape: 16px,
+          icon-size: 24px
+        ),
+      (mdc, fab, tertiary):
+        (
+          container-shape: 16px,
+          icon-size: 24px
+        ),
+      (mdc, fab):
+        (
+          container-shape: 16px,
+          icon-size: 24px
+        ),
+      (mdc, fab-small, primary): (),
+      (mdc, fab-small, secondary):
+        (
+          container-shape: 12px,
+          icon-size: 24px
+        ),
+      (mdc, fab-small, tertiary):
+        (
+          container-shape: 12px,
+          icon-size: 24px
+        ),
+      (mdc, fab-small):
+        (
+          container-shape: 12px,
+          icon-size: 24px
+        ),
+      (mdc, filled-text-field, primary): (),
+      (mdc, filled-text-field, secondary): (),
+      (mdc, filled-text-field, tertiary): (),
+      (mdc, filled-text-field, error): (),
+      (mdc, filled-text-field):
+        (
+          active-indicator-height: 1px,
+          focus-active-indicator-height: 2px,
+          container-shape: 4px
+        ),
+      (mdc, icon-button):
+        (
+          icon-size: 24px
+        ),
+      (mdc, linear-progress, primary): (),
+      (mdc, linear-progress, secondary): (),
+      (mdc, linear-progress, tertiary): (),
+      (mdc, linear-progress, error): (),
+      (mdc, linear-progress):
+        (
+          active-indicator-height: 4px,
+          track-height: 4px,
+          track-shape: 0px
+        ),
+      (mdc, list):
+        (
+          list-item-container-shape: 0px,
+          list-item-leading-avatar-shape: 9999px,
+          list-item-leading-icon-size: 24px,
+          list-item-leading-avatar-size: 40px,
+          list-item-trailing-icon-size: 24px,
+          list-item-disabled-label-text-opacity: 0.3,
+          list-item-disabled-leading-icon-opacity: 0.38,
+          list-item-disabled-trailing-icon-opacity: 0.38
+        ),
+      (mdc, outlined-card):
+        (
+          container-shape: 12px,
+          outline-width: 1px
+        ),
+      (mdc, outlined-text-field, primary): (),
+      (mdc, outlined-text-field, secondary): (),
+      (mdc, outlined-text-field, tertiary): (),
+      (mdc, outlined-text-field, error): (),
+      (mdc, outlined-text-field):
+        (
+          outline-width: 1px,
+          focus-outline-width: 2px,
+          container-shape: 4px
+        ),
+      (mdc, plain-tooltip):
+        (
+          container-shape: 4px
+        ),
+      (mdc, radio, primary): (),
+      (mdc, radio, secondary): (),
+      (mdc, radio, tertiary): (),
+      (mdc, radio, error): (),
+      (mdc, radio):
+        (
+          disabled-selected-icon-opacity: 0.38,
+          disabled-unselected-icon-opacity: 0.38
+        ),
+      (mdc, slider, primary): (),
+      (mdc, slider, secondary): (),
+      (mdc, slider, tertiary): (),
+      (mdc, slider, error): (),
+      (mdc, slider):
+        (
+          active-track-height: 4px,
+          active-track-shape: 9999px,
+          handle-height: 20px,
+          handle-shape: 9999px,
+          handle-width: 20px,
+          inactive-track-height: 4px,
+          inactive-track-shape: 9999px,
+          with-overlap-handle-outline-width: 1px,
+          with-tick-marks-active-container-opacity: 0.38,
+          with-tick-marks-container-shape: 9999px,
+          with-tick-marks-container-size: 2px,
+          with-tick-marks-inactive-container-opacity: 0.38
+        ),
+      (mdc, snackbar):
+        (
+          container-shape: 4px
+        ),
+      (mdc, switch, primary): (),
+      (mdc, switch, secondary): (),
+      (mdc, switch, tertiary): (),
+      (mdc, switch, error): (),
+      (mdc, switch):
+        (
+          disabled-selected-icon-opacity: 0.38,
+          disabled-track-opacity: 0.12,
+          disabled-unselected-icon-opacity: 0.38,
+          handle-shape: 9999px,
+          selected-icon-size: 16px,
+          track-height: 32px,
+          track-shape: 9999px,
+          track-width: 52px,
+          unselected-icon-size: 16px,
+          state-layer-size: 40px
+        ),
+      (mdc, tab): (),
+      (mdc, tab-indicator, primary): (),
+      (mdc, tab-indicator, secondary): (),
+      (mdc, tab-indicator, tertiary): (),
+      (mdc, tab-indicator, error): (),
+      (mdc, tab-indicator):
+        (
+          active-indicator-height: 2px,
+          active-indicator-shape: 0
+        )
+    )
+  )
+);
