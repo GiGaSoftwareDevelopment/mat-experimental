@@ -9,6 +9,7 @@ import {
 } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
 import { MatTooltip } from '@angular/material/tooltip';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-buttons',
@@ -23,7 +24,8 @@ import { MatTooltip } from '@angular/material/tooltip';
     MatIconButton,
     MatMiniFabAnchor,
     MatMiniFabButton,
-    MatTooltip
+    MatTooltip,
+    RouterLink
   ],
   templateUrl: './buttons.component.html',
   styleUrl: './buttons.component.scss'
